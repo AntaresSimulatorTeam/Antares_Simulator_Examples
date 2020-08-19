@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph>
+      <text>"A two-area (A-B) system with "</text>
+      <text fontweight="92">strictly identical</text>
+      <text>" loads and "</text>
+      <text fontweight="92">thermal dispatchable</text>
+      <text>" fleets. The difference lies in the way hydro generation is parametrised in A and B :"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"Area A  : The explicit Reservoir management option   is not activated:  hydro energies defined in the "</text>
+      <symbol>34</symbol>
+      <text>local data</text>
+      <symbol>34</symbol>
+      <text>" item are based on historical production and are  considered as energies to use for each month."</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"Area B  : The explicit  Reservoir management option  is activated. hydro energies defined in the "</text>
+      <symbol>34</symbol>
+      <text>local data</text>
+      <symbol>34</symbol>
+      <text>" item are considered as hydraulic inflows and reservoir parameters (level, capacity) will be used to define when they will be converted in actual hydro generation."</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>The hydro allocation matrix is diagonal, which means that the use of the  hydro energy available in each area should be modulated mainly to serve each of them separately rather than both of them.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The hydro annual energy expectation  is the same for the 2 areas (60TWh).</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The optimal use of reservoir hydro energy is roughly the same in both areas , when considering average results over a large number of Monte Carlo years. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>However, the modelling used for area B  produces clearly  better results on atypical scenarios  (early cold wave or a lot of renewable power).</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The choice of the  model to use should be  based on the following considerations:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="4353" bulletnumber="1" bulletname="standard/circle" liststyle="Numbered List">
+      <text>When available  reservoir hydro energy data are limited to statistics on monthly  generated energies, there is no other options than using a model similar to the one used for area A.</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="4353" bulletnumber="2" bulletname="standard/circle" liststyle="Numbered List">
+      <text>"When available data include statistics regarding hydro inflows as well as modulations  of reservoir levels, both models can be used. However, as a rule, the model used for area B should be preferred  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
