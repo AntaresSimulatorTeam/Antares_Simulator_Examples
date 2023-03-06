@@ -1,0 +1,10 @@
+[
+	{
+		"name" : "test_adq_patch_csr_2",
+		"checks" :
+		{
+			"output_compare" : {},
+			"integrity_compare" : null
+		}
+	}
+]
