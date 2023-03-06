@@ -1,6 +1,6 @@
 [
 	{
-		"name" : "test_1",
+		"name" : "test_adq_patch_csr_1",
 		"checks" :
 		{
 			"output_compare" : {},
